@@ -1,0 +1,7 @@
+$PKGDOCDIR/examples/ftyperc     /etc/joe/
+$PKGDOCDIR/examples/jicerc.ru   /etc/joe/
+$PKGDOCDIR/examples/jmacsrc     /etc/joe/
+$PKGDOCDIR/examples/joerc       /etc/joe/
+$PKGDOCDIR/examples/jpicorc     /etc/joe/
+$PKGDOCDIR/examples/jstarrc     /etc/joe/
+$PKGDOCDIR/examples/rjoerc      /etc/joe/

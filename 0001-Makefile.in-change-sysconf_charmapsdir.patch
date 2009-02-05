@@ -1,0 +1,26 @@
+From ed0c53819a7712154a659e0a8f319f0e531c7df6 Mon Sep 17 00:00:00 2001
+From: Jari Aalto <jari.aalto@cante.net>
+Date: Thu, 13 Dec 2007 23:05:03 +0200
+Subject: [PATCH] Makefile.in: change sysconf_charmapsdir
+
+Signed-off-by: Jari Aalto <jari.aalto@cante.net>
+---
+ Makefile.in |    2 +-
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+
+diff --git a/Makefile.in b/Makefile.in
+index faba7c8..9a2d469 100644
+--- a/Makefile.in
++++ b/Makefile.in
+@@ -214,7 +214,7 @@ EXTRA_DIST = COPYING LIST HACKING ChangeLog NEWS README INSTALL INSTALL.AMIGA IN
+ 	cygbuild setup.hint xterm-patch xterm-readme autojoe
+ 
+ sysconf_joedir = $(sysconfdir)/joe
+-sysconf_charmapsdir = $(sysconf_joedir)/charmaps
++sysconf_charmapsdir = $(datadir)/joe/charmaps
+ sysconf_charmaps_DATA = charmaps/klingon
+ sysconf_docdir = $(sysconf_joedir)/doc
+ sysconf_doc_DATA = LIST README HINTS ChangeLog HACKING NEWS
+-- 
+1.5.3.GIT
+

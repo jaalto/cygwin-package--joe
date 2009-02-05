@@ -1,0 +1,26 @@
+From f588b85d9b5e17ace6be7b30fa981d9a7e13840b Mon Sep 17 00:00:00 2001
+From: Jari Aalto <jari.aalto@cante.net>
+Date: Thu, 13 Dec 2007 23:06:33 +0200
+Subject: [PATCH] po/Makefile.in: change sysconf_langdir
+
+Signed-off-by: Jari Aalto <jari.aalto@cante.net>
+---
+ po/Makefile.in |    2 +-
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+
+diff --git a/po/Makefile.in b/po/Makefile.in
+index 894bff9..09e07ad 100644
+--- a/po/Makefile.in
++++ b/po/Makefile.in
+@@ -148,7 +148,7 @@ target_cpu = @target_cpu@
+ target_os = @target_os@
+ target_vendor = @target_vendor@
+ sysconf_joedir = $(sysconfdir)/joe
+-sysconf_langdir = $(sysconf_joedir)/lang
++sysconf_langdir = $(datadir)/joe/lang
+ sysconf_lang_DATA = ru.po de.po fr.po
+ EXTRA_DIST = $(sysconf_lang_DATA)
+ all: all-am
+-- 
+1.5.3.GIT
+

@@ -1,0 +1,27 @@
+From 5cec740cf99e57a34fc2c1cc9c1b5880e0b2b83d Mon Sep 17 00:00:00 2001
+From: Jari Aalto <jari.aalto@cante.net>
+Date: Thu, 13 Dec 2007 22:39:35 +0200
+Subject: [PATCH] syntax/Makefile.in: change sysconf_syntaxdir
+
+Signed-off-by: Jari Aalto <jari.aalto@cante.net>
+---
+ syntax/Makefile.in |    3 ++-
+ 1 files changed, 2 insertions(+), 1 deletions(-)
+
+diff --git a/syntax/Makefile.in b/syntax/Makefile.in
+index 77e8dfc..0a68de9 100644
+--- a/syntax/Makefile.in
++++ b/syntax/Makefile.in
+@@ -171,7 +171,8 @@ target_cpu = @target_cpu@
+ target_os = @target_os@
+ target_vendor = @target_vendor@
+ sysconf_joedir = $(sysconfdir)/joe
+-sysconf_syntaxdir = $(sysconf_joedir)/syntax
++#sysconf_syntaxdir = $(sysconf_joedir)/syntax
++sysconf_syntaxdir = $(datadir)/joe/syntax
+ sysconf_syntax_DATA = c.jsf perl.jsf verilog.jsf conf.jsf python.jsf php.jsf sh.jsf \
+ 	mail.jsf pascal.jsf html.jsf vhdl.jsf fortran.jsf java.jsf xml.jsf tcl.jsf \
+ 	lisp.jsf csh.jsf mason.jsf diff.jsf asm.jsf tex.jsf css.jsf ocaml.jsf \
+-- 
+1.5.3.GIT
+
