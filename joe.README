@@ -8,7 +8,7 @@ JPICO is a close immitation of the Pine mailing system's PICO editor,
 but with many extensions and improvements. JMACS is a Emacs imitation.
 RJOE is a restricted version of JOE, which allowes you to edit only
 the files specified on the command line.
-z
+
 Runtime requirements:
   cygwin
   libncurses8
@@ -18,6 +18,7 @@ Build requirements:
   libncurses-devel
 
 Canonical homepage:
+  http://freshmeat.net/projects/joe
   http://sourceforge.net/projects/joe-editor
   http://packages.debian.org/joe
 
@@ -46,103 +47,37 @@ Language:
 
 Build instructions:
   You may need cygbuild.sourceforge.net to build *src.tar.bz2 archive
-  unpack joe-3.5-2-src.tar.bz2
+  unpack joe-3.7-1-src.tar.bz2
     if you use setup to install this src package, it will be
          unpacked under /usr/src automatically
   cd /usr/src
   ./joe*.sh all
 
 This will create:
-  joe-3.5-2.tar.bz2
-  joe-3.5-2-src.tar.bz2
+  joe-3.7-1.tar.bz2
+  joe-3.7-1-src.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary distro:
-
-/etc/postinstall/joe-manifest.lst
-/etc/postinstall/joe.sh
-/usr/bin/jmacs -> joe.exe
-/usr/bin/joe.exe
-/usr/bin/jpico -> joe.exe
-/usr/bin/jstar -> joe.exe
-/usr/bin/rjoe -> joe.exe
-/usr/share/doc/Cygwin/joe-3.5.README
-/usr/share/doc/joe-3.5/COPYING
-/usr/share/doc/joe-3.5/ChangeLog
-/usr/share/doc/joe-3.5/HACKING
-/usr/share/doc/joe-3.5/HINTS
-/usr/share/doc/joe-3.5/INSTALL.AMIGA
-/usr/share/doc/joe-3.5/INSTALL.cvs
-/usr/share/doc/joe-3.5/LIST
-/usr/share/doc/joe-3.5/NEWS
-/usr/share/doc/joe-3.5/README
-/usr/share/doc/joe-3.5/TODO
-/usr/share/doc/joe-3.5/examples/ftyperc
-/usr/share/doc/joe-3.5/examples/jicerc.ru
-/usr/share/doc/joe-3.5/examples/jmacsrc
-/usr/share/doc/joe-3.5/examples/joerc
-/usr/share/doc/joe-3.5/examples/jpicorc
-/usr/share/doc/joe-3.5/examples/jstarrc
-/usr/share/doc/joe-3.5/examples/rjoerc
-/usr/share/doc/joe-3.5/help-system.html
-/usr/share/joe/charmaps/klingon
-/usr/share/joe/lang/de.po
-/usr/share/joe/lang/fr.po
-/usr/share/joe/lang/ru.po
-/usr/share/joe/syntax/4gl.jsf
-/usr/share/joe/syntax/ada.jsf
-/usr/share/joe/syntax/asm.jsf
-/usr/share/joe/syntax/awk.jsf
-/usr/share/joe/syntax/c.jsf
-/usr/share/joe/syntax/cobol.jsf
-/usr/share/joe/syntax/conf.jsf
-/usr/share/joe/syntax/csh.jsf
-/usr/share/joe/syntax/css.jsf
-/usr/share/joe/syntax/diff.jsf
-/usr/share/joe/syntax/fortran.jsf
-/usr/share/joe/syntax/haskell.jsf
-/usr/share/joe/syntax/html.jsf
-/usr/share/joe/syntax/java.jsf
-/usr/share/joe/syntax/joerc.jsf
-/usr/share/joe/syntax/lisp.jsf
-/usr/share/joe/syntax/lua.jsf
-/usr/share/joe/syntax/m4.jsf
-/usr/share/joe/syntax/mail.jsf
-/usr/share/joe/syntax/mason.jsf
-/usr/share/joe/syntax/ocaml.jsf
-/usr/share/joe/syntax/pascal.jsf
-/usr/share/joe/syntax/perl.jsf
-/usr/share/joe/syntax/php.jsf
-/usr/share/joe/syntax/ps.jsf
-/usr/share/joe/syntax/python.jsf
-/usr/share/joe/syntax/rexx.jsf
-/usr/share/joe/syntax/ruby.jsf
-/usr/share/joe/syntax/sed.jsf
-/usr/share/joe/syntax/sh.jsf
-/usr/share/joe/syntax/skill.jsf
-/usr/share/joe/syntax/sml.jsf
-/usr/share/joe/syntax/sql.jsf
-/usr/share/joe/syntax/tcl.jsf
-/usr/share/joe/syntax/tex.jsf
-/usr/share/joe/syntax/troff.jsf
-/usr/share/joe/syntax/verilog.jsf
-/usr/share/joe/syntax/vhdl.jsf
-/usr/share/joe/syntax/xml.jsf
-/usr/share/man/man1/jmacs.1.gz
-/usr/share/man/man1/joe.1.gz
-/usr/share/man/man1/jpico.1.gz
-/usr/share/man/man1/jstar.1.gz
-/usr/share/man/man1/rjoe.1.gz
-/usr/share/man/ru/man1/joe.1.gz
+  See Cygwin package archive
 
 ------------------
 
 Port Notes:
 
+----- version 3.7-1 -----
+- New upstream release 2009-02-03 Jari Aalto
+- Correct syntax highlighting by using default file locations.
+
+----- version 3.5-3 -----
+- 2008-08-20 Jari Aalto
+- Disable /usr/share/joe/* patches to restore syntax highlighting.
+  http://cygwin.com/ml/cygwin/2008-07/msg00277.html
+
 ----- version 3.5-2 -----
 - New maintainer 2007-08-06 Jari Aalto
-- Removed termidx.exe. According to debian changelog
+- Remove termidx.exe. According to debian changelog
   http://packages.debian.org/changelogs/pool/main/j/joe/joe_2.8-20/changelog
   "joe (2.8-16) unstable; urgency=low
    * Since joe doesn't use termcap (but terminfo), termidx can be removed."
@@ -152,4 +87,4 @@ Port Notes:
 - Joe Allen
 
 Cygwin port maintained by: Jari Aalto <jari.aalto@cante.net>
-Copyright (C) 2007 Jari Aalto; Licenced under GPL v2 or later
+Copyright (C) 2007-2009 Jari Aalto; Licenced under GPL v2 or later

@@ -1,7 +1,6 @@
--- Copyright (C) 2007 Jari Aalto; Licenced under GPL v2 or later
-
+- Copyright (C) 2007-2009 Jari Aalto; Licenced under GPL v2 or later
 To: cygwin-announce@cygwin.com
-Subject: Updated: package 3.5-2 -- Fast and simple editor which emulates 5 other editors
+Subject: Updated: package 3.7-1 -- Fast and simple editor which emulates 5 other editors
 
 PACKAGE DESCRIPTION
 ===================
@@ -18,7 +17,9 @@ the files specified on the command line.
 CHANGES SINCE LAST RELEASE
 ==========================
 
-None. New maintainer.
+- New upstream release
+- Cygwin: disable patches to restore syntax highlighting.
+  http://cygwin.com/ml/cygwin/2008-07/msg00277.html
 
 INSTALL OR UPGRADE NOTES
 ========================
