@@ -10,7 +10,7 @@ set -e
 
 #:etc
 fromdir=/etc/defaults
-for i in   etc etc/joe etc/joe/joerc etc/joe/jicerc.ru etc/joe/jmacsrc etc/joe/jstarrc etc/joe/rjoerc etc/joe/jpicorc etc/joe/ftyperc
+for i in   etc etc/joe etc/joe/ftyperc etc/joe/jicerc.ru etc/joe/jmacsrc etc/joe/joerc etc/joe/jpicorc etc/joe/jstarrc etc/joe/rjoerc
 do
     src=$fromdir/$i
     destdir=$dest/$i
