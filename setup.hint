@@ -5,4 +5,4 @@ PICO editor, but with many extensions and improvements. JMACS is a
 Emacs imitation. RJOE is a restricted version of JOE, which
 allowes you to edit only the files specified on the command line."
 category: Editors
-requires: libncurses8
+requires: libncursesw10
