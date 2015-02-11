@@ -1,5 +1,5 @@
 To: cygwin-announce@cygwin.com
-Subject: Updated: package 3.7-1 -- Fast and simple editor which emulates 5 other editors
+Subject: Updated: joe 3.7-2 -- Fast and simple editor which emulates 5 other editors
 --text follows this line--
 
 PACKAGE DESCRIPTION
@@ -17,9 +17,7 @@ the files specified on the command line.
 CHANGES SINCE LAST RELEASE
 ==========================
 
-Cygwin installation: adjust postinstall +x permissions.
-
-No user visible changes.
+Cygwin: compile with libncursesw10
 
 INSTALL OR UPGRADE NOTES
 ========================

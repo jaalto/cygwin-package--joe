@@ -47,15 +47,15 @@ Language:
 
 Build instructions:
   You may need cygbuild.sourceforge.net to build *src.tar.bz2 archive
-  unpack joe-3.7-1-src.tar.bz2
+  unpack joe-3.7-2-src.tar.bz2
     if you use setup to install this src package, it will be
          unpacked under /usr/src automatically
   cd /usr/src
   ./joe*.sh all
 
 This will create:
-  joe-3.7-1.tar.bz2
-  joe-3.7-1-src.tar.bz2
+  joe-3.7-2.tar.xz
+  joe-3.7-2-src.tar.xz
 
 -------------------------------------------
 
@@ -65,6 +65,10 @@ Files included in the binary distro:
 ------------------
 
 Port Notes:
+
+----- version 3.7-2 -----
+- New release 2015-02-11 Jari Aalto
+- Compile with libncursesw10
 
 ----- version 3.7-1 -----
 - New upstream release 2009-02-03 Jari Aalto
@@ -87,4 +91,4 @@ Port Notes:
 - Joe Allen
 
 Cygwin port maintained by: Jari Aalto <jari.aalto@cante.net>
-Copyright (C) 2007-2010 Jari Aalto; Licenced under GPL v2 or later
+Copyright (C) 2007-2015 Jari Aalto; Licenced under GPL v2 or later
