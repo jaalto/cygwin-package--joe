@@ -26,6 +26,7 @@ Canonical download:
   See above
 
 Version control repository:
+  hg clone http://hg.code.sf.net/p/joe-editor/mercurial joe-editor.hg
   http://sourceforge.net/cvs/?group_id=23475
 
 Mailing list:
@@ -35,7 +36,7 @@ IRC channel:
 
 Upstream contact:
   Author: Joe Allen <jhallen@users.sourceforge.net>
-  Bugs: http://sourceforge.net/tracker/?atid=378598&group_id=23475&func=browse
+  Bugs: https://sourceforge.net/p/joe-editor/bugs/
 
 License:
   GPL
