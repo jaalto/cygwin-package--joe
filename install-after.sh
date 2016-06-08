@@ -42,7 +42,10 @@ Delete ()
     # See joe.README, why this file is removed
 
     list=$(find $root -name termidx.exe)
-    [ "$list" ] && Cmd rm --verbose $list
+
+    if [ "$list" ]; then
+         Cmd rm --verbose $list
+    fi
 }
 
 Main()
