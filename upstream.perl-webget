@@ -1,3 +1,4 @@
+# https://sourceforge.net/projects/joe-editor/files/JOE%20sources/
 tag1: joe
   http://packages.debian.org/unstable/joe pregexp:orig.tar file:joe_3.7.orig.tar.gz new: x:
 
