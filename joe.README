@@ -23,7 +23,7 @@ Canonical homepage:
   http://packages.debian.org/joe
 
 Canonical download:
-  See above
+  https://sourceforge.net/projects/joe-editor/files/JOE%20sources/
 
 Version control repository:
   hg clone http://hg.code.sf.net/p/joe-editor/mercurial joe-editor.hg
