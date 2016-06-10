@@ -8,8 +8,8 @@ PACKAGE DESCRIPTION
 Homepage: http://sourceforge.net/projects/joe-editor
 License : GPL
 
-JSTAR is a close immitation of WordStar with many JOE extensions.
-JPICO is a close immitation of the Pine mailing system's PICO editor,
+JSTAR is a close imitation of WordStar with many JOE extensions.
+JPICO is a close imitation of the Pine mailing system's PICO editor,
 but with many extensions and improvements. JMACS is a Emacs imitation.
 RJOE is a restricted version of JOE which allows editing only
 files specified on the command line.
