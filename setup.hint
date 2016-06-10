@@ -2,7 +2,7 @@ sdesc: "Fast and simple editor which emulates 5 other editors"
 ldesc: "JSTAR is a close immitation of WordStar with many JOE
 extensions. JPICO is a close immitation of the Pine mailing system's
 PICO editor, but with many extensions and improvements. JMACS is a
-Emacs imitation. RJOE is a restricted version of JOE, which
-allowes you to edit only the files specified on the command line."
+Emacs imitation. RJOE is a restricted version of JOE which
+allows editing only files specified on the command line."
 category: Editors
 requires: libncursesw10
