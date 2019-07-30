@@ -48,15 +48,15 @@ Language:
 
 Build instructions:
   You may need cygbuild.sourceforge.net to build *src.tar.bz2 archive
-  unpack joe-4.2-1-src.tar.bz2
+  unpack joe-4.6-1-src.tar.bz2
     if you use setup to install this src package, it will be
          unpacked under /usr/src automatically
   cd /usr/src
   ./joe*.sh all
 
 This will create:
-  joe-4.2-1.tar.xz
-  joe-4.2-1-src.tar.xz
+  joe-4.6-1.tar.xz
+  joe-4.6-1-src.tar.xz
 
 -------------------------------------------
 
@@ -66,6 +66,9 @@ Files included in the binary distro:
 ------------------
 
 Port Notes:
+
+----- version 4.6-1 -----
+- New upstream release 2019-07-30 Jari Aalto
 
 ----- version 4.2-1 -----
 - New upstream release 2016-06-08 Jari Aalto
@@ -98,4 +101,4 @@ Port Notes:
 - Joe Allen
 
 Cygwin port maintained by: Jari Aalto <jari.aalto@cante.net>
-Copyright (C) 2007-2016 Jari Aalto; Licenced under GPL v2 or later
+Copyright (C) 2007-2019 Jari Aalto; Licenced under GPL v2 or later
